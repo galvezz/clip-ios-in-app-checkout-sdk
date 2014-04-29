@@ -21,6 +21,14 @@
 		CA2D098C191039CC00858451 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA2D096E191039CC00858451 /* UIKit.framework */; };
 		CA2D0994191039CC00858451 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CA2D0992191039CC00858451 /* InfoPlist.strings */; };
 		CA2D0996191039CC00858451 /* clip_in_app_checkout_exampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CA2D0995191039CC00858451 /* clip_in_app_checkout_exampleTests.m */; };
+		CA2D09A019103BA700858451 /* icon-merchant-logo.png in Resources */ = {isa = PBXBuildFile; fileRef = CA2D099F19103BA700858451 /* icon-merchant-logo.png */; };
+		CA2D09A619103C3B00858451 /* ClipCorePayments.bundle in Resources */ = {isa = PBXBuildFile; fileRef = CA2D09A219103C3B00858451 /* ClipCorePayments.bundle */; };
+		CA2D09A819103C3B00858451 /* PayclipCommonResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = CA2D09A519103C3B00858451 /* PayclipCommonResources.bundle */; };
+		CA2D09AA19103D4B00858451 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA2D09A919103D4B00858451 /* CoreLocation.framework */; };
+		CA2D09AC19103D5300858451 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA2D09AB19103D5300858451 /* Security.framework */; };
+		CA2D09AE19103D5D00858451 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA2D09AD19103D5D00858451 /* SystemConfiguration.framework */; };
+		CA2D09B019103D6700858451 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA2D09AF19103D6700858451 /* MobileCoreServices.framework */; };
+		CA2D09B219103EF300858451 /* libclip-ios-checkout-mpl_v0_0_1.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CA2D09B119103EF300858451 /* libclip-ios-checkout-mpl_v0_0_1.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +61,15 @@
 		CA2D0991191039CC00858451 /* clip-in-app-checkout-exampleTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "clip-in-app-checkout-exampleTests-Info.plist"; sourceTree = "<group>"; };
 		CA2D0993191039CC00858451 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		CA2D0995191039CC00858451 /* clip_in_app_checkout_exampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = clip_in_app_checkout_exampleTests.m; sourceTree = "<group>"; };
+		CA2D099F19103BA700858451 /* icon-merchant-logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-merchant-logo.png"; sourceTree = "<group>"; };
+		CA2D09A219103C3B00858451 /* ClipCorePayments.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = ClipCorePayments.bundle; sourceTree = "<group>"; };
+		CA2D09A319103C3B00858451 /* ClipWidget.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClipWidget.h; sourceTree = "<group>"; };
+		CA2D09A519103C3B00858451 /* PayclipCommonResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = PayclipCommonResources.bundle; sourceTree = "<group>"; };
+		CA2D09A919103D4B00858451 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		CA2D09AB19103D5300858451 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		CA2D09AD19103D5D00858451 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		CA2D09AF19103D6700858451 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		CA2D09B119103EF300858451 /* libclip-ios-checkout-mpl_v0_0_1.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "libclip-ios-checkout-mpl_v0_0_1.a"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +77,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CA2D09B019103D6700858451 /* MobileCoreServices.framework in Frameworks */,
+				CA2D09AE19103D5D00858451 /* SystemConfiguration.framework in Frameworks */,
+				CA2D09AC19103D5300858451 /* Security.framework in Frameworks */,
+				CA2D09AA19103D4B00858451 /* CoreLocation.framework in Frameworks */,
+				CA2D09B219103EF300858451 /* libclip-ios-checkout-mpl_v0_0_1.a in Frameworks */,
 				CA2D096D191039CC00858451 /* CoreGraphics.framework in Frameworks */,
 				CA2D096F191039CC00858451 /* UIKit.framework in Frameworks */,
 				CA2D096B191039CC00858451 /* Foundation.framework in Frameworks */,
@@ -101,6 +123,10 @@
 		CA2D0969191039CC00858451 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				CA2D09AF19103D6700858451 /* MobileCoreServices.framework */,
+				CA2D09AD19103D5D00858451 /* SystemConfiguration.framework */,
+				CA2D09AB19103D5300858451 /* Security.framework */,
+				CA2D09A919103D4B00858451 /* CoreLocation.framework */,
 				CA2D096A191039CC00858451 /* Foundation.framework */,
 				CA2D096C191039CC00858451 /* CoreGraphics.framework */,
 				CA2D096E191039CC00858451 /* UIKit.framework */,
@@ -114,11 +140,13 @@
 			children = (
 				CA2D0979191039CC00858451 /* AppDelegate.h */,
 				CA2D097A191039CC00858451 /* AppDelegate.m */,
+				CA2D099F19103BA700858451 /* icon-merchant-logo.png */,
+				CA2D0982191039CC00858451 /* Images.xcassets */,
 				CA2D097C191039CC00858451 /* Main.storyboard */,
+				CA2D0971191039CC00858451 /* Supporting Files */,
+				CA2D09A119103BAC00858451 /* Vendor */,
 				CA2D097F191039CC00858451 /* ViewController.h */,
 				CA2D0980191039CC00858451 /* ViewController.m */,
-				CA2D0982191039CC00858451 /* Images.xcassets */,
-				CA2D0971191039CC00858451 /* Supporting Files */,
 			);
 			path = "clip-in-app-checkout-example";
 			sourceTree = "<group>";
@@ -150,6 +178,17 @@
 				CA2D0992191039CC00858451 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CA2D09A119103BAC00858451 /* Vendor */ = {
+			isa = PBXGroup;
+			children = (
+				CA2D09A219103C3B00858451 /* ClipCorePayments.bundle */,
+				CA2D09A319103C3B00858451 /* ClipWidget.h */,
+				CA2D09B119103EF300858451 /* libclip-ios-checkout-mpl_v0_0_1.a */,
+				CA2D09A519103C3B00858451 /* PayclipCommonResources.bundle */,
+			);
+			path = Vendor;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,6 +270,9 @@
 				CA2D0983191039CC00858451 /* Images.xcassets in Resources */,
 				CA2D0975191039CC00858451 /* InfoPlist.strings in Resources */,
 				CA2D097E191039CC00858451 /* Main.storyboard in Resources */,
+				CA2D09A819103C3B00858451 /* PayclipCommonResources.bundle in Resources */,
+				CA2D09A619103C3B00858451 /* ClipCorePayments.bundle in Resources */,
+				CA2D09A019103BA700858451 /* icon-merchant-logo.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -333,7 +375,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 			};
@@ -365,7 +407,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -379,6 +421,12 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "clip-in-app-checkout-example/clip-in-app-checkout-example-Prefix.pch";
 				INFOPLIST_FILE = "clip-in-app-checkout-example/clip-in-app-checkout-example-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/clip-in-app-checkout-example/Vendor",
+				);
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -392,6 +440,12 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "clip-in-app-checkout-example/clip-in-app-checkout-example-Prefix.pch";
 				INFOPLIST_FILE = "clip-in-app-checkout-example/clip-in-app-checkout-example-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/clip-in-app-checkout-example/Vendor",
+				);
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
