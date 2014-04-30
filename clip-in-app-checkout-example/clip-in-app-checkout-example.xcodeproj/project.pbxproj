@@ -28,7 +28,7 @@
 		CA2D09AC19103D5300858451 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA2D09AB19103D5300858451 /* Security.framework */; };
 		CA2D09AE19103D5D00858451 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA2D09AD19103D5D00858451 /* SystemConfiguration.framework */; };
 		CA2D09B019103D6700858451 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA2D09AF19103D6700858451 /* MobileCoreServices.framework */; };
-		CA2D09B219103EF300858451 /* libclip-ios-checkout-mpl_v0_0_1.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CA2D09B119103EF300858451 /* libclip-ios-checkout-mpl_v0_0_1.a */; };
+		CA2D09F81911A7A900858451 /* libclip-ios-checkout-mpl.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CA2D09F71911A7A900858451 /* libclip-ios-checkout-mpl.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,7 +69,7 @@
 		CA2D09AB19103D5300858451 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 		CA2D09AD19103D5D00858451 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		CA2D09AF19103D6700858451 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
-		CA2D09B119103EF300858451 /* libclip-ios-checkout-mpl_v0_0_1.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "libclip-ios-checkout-mpl_v0_0_1.a"; sourceTree = "<group>"; };
+		CA2D09F71911A7A900858451 /* libclip-ios-checkout-mpl.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "libclip-ios-checkout-mpl.a"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,10 +78,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				CA2D09B019103D6700858451 /* MobileCoreServices.framework in Frameworks */,
+				CA2D09F81911A7A900858451 /* libclip-ios-checkout-mpl.a in Frameworks */,
 				CA2D09AE19103D5D00858451 /* SystemConfiguration.framework in Frameworks */,
 				CA2D09AC19103D5300858451 /* Security.framework in Frameworks */,
 				CA2D09AA19103D4B00858451 /* CoreLocation.framework in Frameworks */,
-				CA2D09B219103EF300858451 /* libclip-ios-checkout-mpl_v0_0_1.a in Frameworks */,
 				CA2D096D191039CC00858451 /* CoreGraphics.framework in Frameworks */,
 				CA2D096F191039CC00858451 /* UIKit.framework in Frameworks */,
 				CA2D096B191039CC00858451 /* Foundation.framework in Frameworks */,
@@ -185,7 +185,7 @@
 			children = (
 				CA2D09A219103C3B00858451 /* ClipCorePayments.bundle */,
 				CA2D09A319103C3B00858451 /* ClipWidget.h */,
-				CA2D09B119103EF300858451 /* libclip-ios-checkout-mpl_v0_0_1.a */,
+				CA2D09F71911A7A900858451 /* libclip-ios-checkout-mpl.a */,
 				CA2D09A519103C3B00858451 /* PayclipCommonResources.bundle */,
 			);
 			path = Vendor;
@@ -510,6 +510,7 @@
 				CA2D099B191039CC00858451 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CA2D099C191039CC00858451 /* Build configuration list for PBXNativeTarget "clip-in-app-checkout-exampleTests" */ = {
 			isa = XCConfigurationList;
@@ -518,6 +519,7 @@
 				CA2D099E191039CC00858451 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
