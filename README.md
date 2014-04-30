@@ -5,6 +5,8 @@ iOS SDK to invoke Clip payment flow for CNP transactions.
 
 The checkout SDK is also know as the Mobile Payments Library (MPL)
 
+![SDK screenshots](docs/payment-lib-screens.png)
+
 ### Installation with CocoaPods
 
 [CocoaPods](http://cocoapods.org) is a dependency manager for Objective-C projects which automates and simplifies installation of third party libraries.
