@@ -49,3 +49,6 @@ After a wiget is initialized it performs an api call to fetch any saved cards an
     [self.view addSubview:view];
 ```
     
+### Example
+
+See the folder clip-in-app-checkout-example for an example project that was setup up using the manual installation instructions.  
