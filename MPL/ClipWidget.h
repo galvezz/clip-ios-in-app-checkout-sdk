@@ -16,6 +16,14 @@ typedef NS_ENUM(NSInteger, PCWidgetColorScheme) {
     PCWidgetColorSchemeLight
 };
 
+typedef NS_ENUM(NSInteger, ClipWidgetError) {
+    ClipWidgetErrorPaymentError = 100,
+    ClipWidgetErrorPaymentDeclined = 101,
+    ClipWidgetErrorPinVerificationFailed = 102,
+    ClipWidgetErrorLimitCheckFailed = 103,
+    ClipWidgetErrorSetupTimedOut = 104
+};
+
 @protocol ClipWidgetDelegate <NSObject>
 
 @optional
@@ -33,7 +41,7 @@ typedef NS_ENUM(NSInteger, PCWidgetColorScheme) {
  *  @param widget
  *  @param receipt
  */
-- (void)clipWidget:(ClipWidget *)widget paymentFinishedWithReceipt:(NSString *)receipt;
+- (void)clipWidget:(ClipWidget *)widget paymentFinishedWithTransactionId:(NSString *)transactionId;
 
 /**
  *  Informs the receiver that an error occured, dismissing the payment flow.
