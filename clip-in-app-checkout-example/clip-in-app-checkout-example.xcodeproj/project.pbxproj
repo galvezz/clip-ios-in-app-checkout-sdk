@@ -72,6 +72,8 @@
 		CA7E974E1912C47A00ECA8B6 /* libclip-ios-checkout-mpl.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libclip-ios-checkout-mpl.a"; path = "../../../MPL/libclip-ios-checkout-mpl.a"; sourceTree = "<group>"; };
 		CA7E974F1912C47A00ECA8B6 /* PayclipCommonResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = PayclipCommonResources.bundle; path = ../../../MPL/PayclipCommonResources.bundle; sourceTree = "<group>"; };
 		CA7E9753191401D200ECA8B6 /* PCMPLLocalizedStrings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = PCMPLLocalizedStrings.bundle; path = ../../../MPL/PCMPLLocalizedStrings.bundle; sourceTree = "<group>"; };
+		CA7E97551914099800ECA8B6 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CA7E97561914099800ECA8B6 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -253,6 +255,7 @@
 			knownRegions = (
 				en,
 				Base,
+				es,
 			);
 			mainGroup = CA2D095E191039CC00858451;
 			productRefGroup = CA2D0968191039CC00858451 /* Products */;
@@ -324,6 +327,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				CA2D0974191039CC00858451 /* en */,
+				CA7E97551914099800ECA8B6 /* es */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -340,6 +344,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				CA2D0993191039CC00858451 /* en */,
+				CA7E97561914099800ECA8B6 /* es */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -433,7 +438,7 @@
 				);
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE = "2A5C8C6C-6B21-47BF-A309-B58B37567D06";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -454,7 +459,7 @@
 				);
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE = "2A5C8C6C-6B21-47BF-A309-B58B37567D06";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
