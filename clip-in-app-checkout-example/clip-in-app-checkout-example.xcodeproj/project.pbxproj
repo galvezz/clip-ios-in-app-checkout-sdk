@@ -29,6 +29,7 @@
 		CA7E97501912C47A00ECA8B6 /* ClipCorePayments.bundle in Resources */ = {isa = PBXBuildFile; fileRef = CA7E974C1912C47A00ECA8B6 /* ClipCorePayments.bundle */; };
 		CA7E97511912C47A00ECA8B6 /* libclip-ios-checkout-mpl.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CA7E974E1912C47A00ECA8B6 /* libclip-ios-checkout-mpl.a */; };
 		CA7E97521912C47A00ECA8B6 /* PayclipCommonResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = CA7E974F1912C47A00ECA8B6 /* PayclipCommonResources.bundle */; };
+		CA7E9754191401D200ECA8B6 /* PCMPLLocalizedStrings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = CA7E9753191401D200ECA8B6 /* PCMPLLocalizedStrings.bundle */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -70,6 +71,7 @@
 		CA7E974D1912C47A00ECA8B6 /* ClipWidget.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ClipWidget.h; path = ../../../MPL/ClipWidget.h; sourceTree = "<group>"; };
 		CA7E974E1912C47A00ECA8B6 /* libclip-ios-checkout-mpl.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libclip-ios-checkout-mpl.a"; path = "../../../MPL/libclip-ios-checkout-mpl.a"; sourceTree = "<group>"; };
 		CA7E974F1912C47A00ECA8B6 /* PayclipCommonResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = PayclipCommonResources.bundle; path = ../../../MPL/PayclipCommonResources.bundle; sourceTree = "<group>"; };
+		CA7E9753191401D200ECA8B6 /* PCMPLLocalizedStrings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = PCMPLLocalizedStrings.bundle; path = ../../../MPL/PCMPLLocalizedStrings.bundle; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -183,6 +185,7 @@
 		CA2D09A119103BAC00858451 /* Vendor */ = {
 			isa = PBXGroup;
 			children = (
+				CA7E9753191401D200ECA8B6 /* PCMPLLocalizedStrings.bundle */,
 				CA7E974C1912C47A00ECA8B6 /* ClipCorePayments.bundle */,
 				CA7E974D1912C47A00ECA8B6 /* ClipWidget.h */,
 				CA7E974E1912C47A00ECA8B6 /* libclip-ios-checkout-mpl.a */,
@@ -270,6 +273,7 @@
 				CA2D0983191039CC00858451 /* Images.xcassets in Resources */,
 				CA2D0975191039CC00858451 /* InfoPlist.strings in Resources */,
 				CA2D097E191039CC00858451 /* Main.storyboard in Resources */,
+				CA7E9754191401D200ECA8B6 /* PCMPLLocalizedStrings.bundle in Resources */,
 				CA7E97521912C47A00ECA8B6 /* PayclipCommonResources.bundle in Resources */,
 				CA7E97501912C47A00ECA8B6 /* ClipCorePayments.bundle in Resources */,
 				CA2D09A019103BA700858451 /* icon-merchant-logo.png in Resources */,
