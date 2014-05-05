@@ -29,6 +29,8 @@
                                                          appName:@"Foo App"
                                                         delegate:self];
 
+
+    self.view.backgroundColor = [UIColor grayColor];
     [widget setColorScheme:PCWidgetColorSchemeDark];
 
     //grab the view for immediate display even though it may not be ready yet and will show an activity indicator
@@ -44,6 +46,26 @@
 {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+- (void)clipWidget:(ClipWidget *)widget paymentFinishedWithTransactionId:(NSString *)transactionId
+{
+    NSLog(@"Transaction Id: %@", transactionId);
+}
+
+- (void)clipWidgetPaymentCanceled:(ClipWidget *)widget
+{
+    NSLog(@"User Canceled");
+}
+
+- (void)clipWidget:(ClipWidget *)widget dismissedWithError:(NSError *)error
+{
+    NSLog(@"dismissed with error: %@", error);
+}
+
+- (void)clipWidget:(ClipWidget *)widget setupDidFailWithError:(NSError *)error
+{
+    NSLog(@"Setup failed With Error: %@", error);
 }
 
 @end
