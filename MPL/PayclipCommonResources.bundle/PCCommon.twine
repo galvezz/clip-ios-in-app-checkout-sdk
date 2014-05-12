@@ -1,0 +1,34 @@
+[[EMVReader Connection]]
+    [attached_message]
+        en = Attached and ready to swipe or dip
+        tags = ios,android
+        es = Clip listo para deslizar o insertar tarjeta
+    [detached_message]
+        en = Clip card reader not attached
+        tags = ios,android
+        es = Tu Clip no está conectado
+        
+[[CreditCard]]
+	[cvv_label]
+		en = CVV
+        es = CVV
+		tags = ios,android
+		comment = CVV placeholder text
+	[postal_code_label]
+		en = Postal Code
+		tags = ios,android
+		comment = Placeholder text behind the postal code entry text field on the manual card entry and CID entry screens
+		es = Código Postal
+	[card_number]
+		en = Card number
+		tags = ios,android
+		es = Número de tarjeta
+        
+        
+[[Numpad]]
+	[clear]
+		en = Clear
+		tags = ios,android
+		comment = Clear button on the numpad to clear the amount back to $0.00
+		es = Limpiar
+        
