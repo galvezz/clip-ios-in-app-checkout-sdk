@@ -19,6 +19,8 @@
 {
     [super viewDidLoad];
 
+    self.view.backgroundColor = [UIColor grayColor];
+
     UIImage *image = [UIImage imageNamed:@"icon-merchant-logo"];
 
     ClipWidget *widget = [[ClipWidget alloc] initWithAccessToken:@"I1heu-9TV9HAqnEXyYR_x___mt-dB6FQIQie1ieiyL8"
@@ -29,8 +31,10 @@
                                                          appName:@"Foo App"
                                                         delegate:self];
 
+    //Uncomment this line when building for release
+    //[widget setDebugModeOn:NO];
 
-    self.view.backgroundColor = [UIColor grayColor];
+    [widget setup];
     [widget setColorScheme:PCWidgetColorSchemeDark];
 
     //grab the view for immediate display even though it may not be ready yet and will show an activity indicator
