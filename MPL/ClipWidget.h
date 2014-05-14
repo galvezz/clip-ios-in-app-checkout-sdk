@@ -81,8 +81,11 @@ typedef NS_ENUM(NSInteger, ClipWidgetError) {
 @property (assign, nonatomic) PCWidgetColorScheme colorScheme;
 
 /**
- *  This method sets up the payment widget with a provided delegate to alert the caller when the widgets view is ready to be used.
- *  Until it's ready the view will be disabled and show an activity indicator.
+ *  Sets the api endpoint to debug or release.  Default is YES.
+ */
+@property (assign, nonatomic) BOOL debugModeOn;
+
+/**
  *
  *  @param token        Api access token
  *  @param userID       wallet user id
@@ -102,8 +105,6 @@ typedef NS_ENUM(NSInteger, ClipWidgetError) {
 
 
 /**
- *  This method sets up the payment widget with a provided delegate to alert the caller when the widgets view is ready to be used.
- *  Until it's ready the view will be disabled and show an activity indicator.
  *
  *  @param token        Api access token
  *  @param userID       wallet user id
@@ -122,6 +123,14 @@ typedef NS_ENUM(NSInteger, ClipWidgetError) {
                             appIcon:(UIImage *)icon
                             appName:(NSString *)name
                            delegate:(id)delegate;
+
+/**
+ *  This method sets up the payment widget with a provided delegate to alert the caller when the widgets view is ready to be used.
+ *  Until it's ready the view will be disabled and show an activity indicator. Subscribe as the delegate to be notified of setup 
+ *  events.
+ */
+- (void)setup;
+
 
 /**
  *  The view for the clip widget and is not available immediately.  This view will display an activity indicator an buttons disabled until setup is complete.
