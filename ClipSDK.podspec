@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = 'ClipSDK'
-  s.version      = "0.0.1"
+  s.version      = "0.0.2"
   s.summary      = "Process CNP (card not present) transactions via Clip"
   s.description  = "IOS SDK (MPL) to invoke Clip payment flor for CNP transactions"
   s.homepage     = "http://www.payclip.com"
@@ -12,7 +12,7 @@ Pod::Spec.new do |s|
   s.source_files = 'MPL/**/*.h'
   s.resource = "MPL/**/*.bundle"
   s.preserve_paths = 'MPL/**/*.a'
-  s.library = 'clip-ios-checkout-mpl_v0_0_1'
+  s.library = 'clip-ios-checkout-mpl'
   s.xcconfig = { 'LIBRARY_SEARCH_PATHS' => '"$(PODS_ROOT)/ClipSDK/MPL"' }
   s.frameworks = 'MobileCoreServices', 'SystemConfiguration', 'Security', 'CoreGraphics', 'CoreLocation'
   s.requires_arc = true

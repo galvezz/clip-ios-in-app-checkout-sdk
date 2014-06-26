@@ -18,7 +18,6 @@ DerivedData
 *.xccheckout
 *.save
 *.tmp
-Localizable.strings
 
 # CocoaPods
 /Pods
