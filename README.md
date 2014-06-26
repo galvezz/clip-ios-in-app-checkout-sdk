@@ -13,7 +13,7 @@ iOS SDK (MPL) to invoke Clip payment flow for CNP transactions.
 
 ```ruby
 platform :ios, '6.0'
-pod pod 'ClipSDK', :git => 'https://github.com/ClipMX/clip-ios-in-app-checkout-sdk.git', '~> 0.0.1'
+pod 'ClipSDK', :git => 'https://github.com/ClipMX/clip-ios-in-app-checkout-sdk.git', '~> 0.0.1'
 ```
 
 ### Manual Installation
